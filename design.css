@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+}
+#navbar{
+    width: 100vw;
+    height: 70px;
+    background-color: #232F3E;
+}
+.sst{
+    width: 100vw;
+    height: 70px;
+}
+#iconn{
+    width: 100px;
+    height: 100px;
+    color: white;
+    margin-left: 50%;
+    margin-top: -10px;
+    transform: translateX(-50%);
+}
+#middle{
+    display: flex;
+}
+#leftflex{
+    flex: 0.7;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    display: inline-flex;
+}
+#image{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    right: 0;
+    top: 5%;
+}
+.show{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    right: 196px;
+    top: 35%;
+}
+.gone{
+    display: none;
+}
+#heart{
+    display: none;
+}
+@keyframes crescendo {
+    0%   {transform: scale(1);}
+    100% {transform: scale(1.3);}
+  }
+#heartdi{
+    position: absolute;
+    color: red;
+    right: 225px;
+    top: 35%;
+    animation: crescendo 1.5s alternate infinite ease-in;
+}
+#heartRate{
+    display: none;
+}
+#heartRatediv{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    right: 202px;
+    top: 45%;
+}
+#rightflex{
+    flex: 1;
+    width: 500vw;
+    height: 100vh;
+}
+#rightflex h1{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 50px;
+}
+#rightflex p{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    font-size: 15px;
+}
+#rightflex h3{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 40px;
+}
+#box-color{
+    display: inline-flex;
+}
+#box-color div{
+    margin-right: 10px;
+}
+#black{
+    width: 65px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #23211f;
+}
+#black:hover{
+    cursor: pointer;
+}
+#red{
+    width: 65px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #ca3d22;
+}
+#red:hover{
+    cursor: pointer;
+}
+#blue{
+    width: 65px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #565681;
+}
+#blue:hover{
+    cursor: pointer;
+}
+#pink{
+    width: 65px;
+    height: 50px;
+    border-radius: 10px;
+    background-color:  #e9c7be;
+}
+#pink:hover{
+    cursor: pointer;
+}
+#purple{
+    width: 65px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #8a5362;
+}
+#purple:hover{
+    cursor: pointer;
+}
+#timebutton{
+    border: none;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+#timebutton:hover{
+cursor: pointer;}
+#heartbutton{
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 100px;
+    height: 30px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+#heartbutton:hover{
+    cursor: pointer;}
+#buyNowButton{
+    display: block;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    font-weight: bolder;
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(253, 89, 30);
+    font-family: 'Montserrat', sans-serif;
+}
+#buyNowButton:hover{
+    cursor: pointer;
+}
